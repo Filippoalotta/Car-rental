@@ -11,7 +11,7 @@ function Pick(){
     const [data, setData] = useState(null);
 
     useEffect(()=> {
-        fetch('../json/cars.json')
+        fetch('/src/assets/json/cars.json')
         .then((response)=> response.json())
         .then(data => {
             setData(data);

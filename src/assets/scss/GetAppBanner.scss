@@ -1,0 +1,49 @@
+$primaryColor: #009900;
+
+.get-app-banner-container{
+    background-image: url('../images/bg-get-app-img1.png');
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 30px;
+    .get-app-banner-content{
+        h2{
+            margin: 0;
+            font-size: 40px;
+            .green-span{
+                color: $primaryColor;
+            }
+        }
+        .store-container{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            img{
+                cursor: pointer;
+            }
+        }
+    }
+    .iphone-img{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    
+    .get-app-banner-container{
+        .get-app-banner-content{
+            text-align: center;
+            .store-container{
+                justify-content: center;
+            }
+        }
+        .iphone-img{
+            display: none;
+        }
+    }
+}

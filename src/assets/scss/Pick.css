@@ -1,0 +1,23 @@
+.pick-container {
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  padding: 50px 30px;
+}
+.pick-container h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.pick-container h2 {
+  margin: 0;
+  font-size: 42px;
+}
+.pick-container .pick-content {
+  padding-top: 50px;
+}
+.pick-container .pick-content .custom-slider .slick-slide {
+  max-width: 400px;
+}
+.pick-container .pick-content .custom-slider .slick-slide div {
+  max-width: 400px;
+}/*# sourceMappingURL=Pick.css.map */

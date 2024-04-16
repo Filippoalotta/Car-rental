@@ -1,0 +1,45 @@
+.easy-fast-container {
+  background-color: #fff;
+  text-align: center;
+  color: #000;
+  padding: 70px 30px;
+}
+.easy-fast-container h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.easy-fast-container h2 {
+  margin: 0;
+  font-size: 42px;
+}
+.easy-fast-container .easy-fast-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+  margin-top: 70px;
+}
+.easy-fast-container .easy-fast-content .service-icon {
+  width: 100px;
+  border: 2px dotted #009900;
+  border-radius: 100%;
+  padding: 5px;
+}
+.easy-fast-container .easy-fast-content h3 {
+  font-size: 24px;
+}
+.easy-fast-container .easy-fast-content p {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+  .easy-fast-container .easy-fast-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .easy-fast-container .easy-fast-content .easy-fast-service {
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=EasyFastServices.css.map */

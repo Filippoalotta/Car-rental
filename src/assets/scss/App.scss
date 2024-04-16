@@ -1,0 +1,19 @@
+$primaryColor: #009900;
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 4em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  cursor: pointer;
+  z-index: 111;
+}
+
+.read-the-docs {
+  color: #888;
+}

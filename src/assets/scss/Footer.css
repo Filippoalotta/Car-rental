@@ -1,0 +1,86 @@
+footer {
+  background-color: #009900;
+  padding: 20px 40px;
+}
+footer .footer-content {
+  background-color: #009900;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .footer-content .contacts-logo-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+footer .footer-content .contacts-logo-container img {
+  width: 200px;
+}
+footer .footer-content .contacts-logo-container .contact-content {
+  font-weight: 400;
+  margin-top: 10px;
+}
+footer .footer-content .contacts-logo-container .contact-content img {
+  width: 20px;
+  margin-right: 10px;
+}
+footer .footer-content .contacts-logo-container .contact-content span:hover {
+  color: #000;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+footer .footer-content .menu-footer-container {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin-left: 30px;
+}
+footer .footer-content .menu-footer-container .li-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+footer .footer-content .menu-footer-container a {
+  color: #fff;
+}
+footer .footer-content .menu-footer-container a:hover {
+  color: #000;
+}
+footer .footer-content .menu-footer-container li {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+footer .footer-content .menu-footer-container li button {
+  background-color: #009900;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+}
+footer .footer-content .menu-footer-container li button:hover {
+  background-color: #fff;
+  color: #009900;
+  transition: all ease-in-out 0.3s;
+}
+footer .footer-content .menu-footer-container li p {
+  margin: 0;
+  max-width: 300px;
+}
+footer .footer-content .menu-footer-container li input {
+  background-color: #fff;
+  color: gray;
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  outline: transparent;
+}
+footer .copyright {
+  text-align: center;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer-content {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}/*# sourceMappingURL=Footer.css.map */

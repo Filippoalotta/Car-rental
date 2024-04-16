@@ -1,0 +1,42 @@
+.get-app-banner-container {
+  background-image: url("../images/bg-get-app-img1.png");
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 30px;
+}
+.get-app-banner-container .get-app-banner-content h2 {
+  margin: 0;
+  font-size: 40px;
+}
+.get-app-banner-container .get-app-banner-content h2 .green-span {
+  color: #009900;
+}
+.get-app-banner-container .get-app-banner-content .store-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.get-app-banner-container .get-app-banner-content .store-container img {
+  cursor: pointer;
+}
+.get-app-banner-container .iphone-img {
+  height: 500px;
+}
+
+@media screen and (max-width: 850px) {
+  .get-app-banner-container .get-app-banner-content {
+    text-align: center;
+  }
+  .get-app-banner-container .get-app-banner-content .store-container {
+    justify-content: center;
+  }
+  .get-app-banner-container .iphone-img {
+    display: none;
+  }
+}/*# sourceMappingURL=GetAppBanner.css.map */

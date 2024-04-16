@@ -13,7 +13,7 @@
             "fuel": "Gasoline",
             "duration": 48,
             "trasmission": "Automatic",
-            "image": "/src/assets/images/audi-rs6.png",
+            "image": "./audi-rs6.png",
             "onOffer": false
         },
         {
@@ -29,7 +29,7 @@
             "fuel": "Diesel",
             "duration": 48,
             "trasmission": "Automatic",
-            "image": "/src/assets/images/range-rover.png",
+            "image": "./range-rover.png",
             "onOffer": false
         },
         {
@@ -45,7 +45,7 @@
             "fuel": "Hybrid",
             "duration": 36,
             "trasmission": "Automatic",
-            "image": "/src/assets/images/smart-4.png",
+            "image": "./smart-4.png",
             "onOffer": true
         },
         {
@@ -61,7 +61,7 @@
             "fuel": "Hybrid",
             "duration": 48,
             "trasmission": "Manual",
-            "image": "/src/assets/images/ford-fiesta.png",
+            "image": "./ford-fiesta.png",
             "onOffer": false
         },
         {
@@ -77,7 +77,7 @@
             "fuel": "Gasoline",
             "duration": 60,
             "trasmission": "Automatic",
-            "image": "/src/assets/images/mercedesCla.png",
+            "image": "./mercedesCla.png",
             "onOffer": true
         }
     ]

@@ -13,6 +13,7 @@ $primaryColor: #009900;
             display: block;
             text-align: left;
             color: #222222;
+            font-size: 16px;
         }
         .input-container select{
             padding: 5px;
@@ -22,6 +23,7 @@ $primaryColor: #009900;
             background-color: #fff;
             color: gray;
             outline: none;
+            font-size: 16px;
             &:focus{
                 border: 1px solid rgb(0, 255, 0);
                 transition: all ease-in-out 0.3s;
@@ -126,6 +128,7 @@ $primaryColor: #009900;
                             border: 1px solid $primaryColor;
                             color: #222222;
                             outline: none;
+                            font-size: 16px;
                             &:focus{
                                 border: 1px solid rgb(0, 255, 0);
                                 transition: all ease-in-out 0.3s;
@@ -152,7 +155,7 @@ $primaryColor: #009900;
         .modal-window{
             width: 70vw;
             .head-comp{
-                flex-direction: column;
+                flex-direction: column-reverse;
                 text-align: center;
                 h2{
                     margin: 20px;

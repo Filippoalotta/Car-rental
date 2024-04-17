@@ -167,7 +167,7 @@ function Book() {
                                     <label htmlFor="zip-code">Zip Code</label>
                                     <input type="number" id="zip-code" autoComplete='off' value={zipCode} onChange={(e)=> setZipCode(e.target.value)} required placeholder='Enter your zip code' />
                                 </div>
-                                <input type="submit" value="Reserve" className='button2' onClick={scrollToBook} />
+                                <input type="submit" value="Reserve" id='inp' className='button2' onClick={scrollToBook} />
                             </form>
                         </div>
                     </div>

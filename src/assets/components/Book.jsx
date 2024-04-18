@@ -102,7 +102,7 @@ function Book() {
                         </select>
                     </div>
                     <div className='button-book'>
-                        <input type="submit" value="Search" className='button2' onClick={handleClickOpen} />
+                        <button type="submit" className='button2' onClick={handleClickOpen} >Search</button>
                     </div>
                 </form>
                 <div className={`reservation-completed ${completedModal == true ? 'open-res' : ''}`}>
@@ -167,7 +167,7 @@ function Book() {
                                     <label htmlFor="zip-code">Zip Code</label>
                                     <input type="number" id="zip-code" autoComplete='off' value={zipCode} onChange={(e)=> setZipCode(e.target.value)} required placeholder='Enter your zip code' />
                                 </div>
-                                <input type="submit" value="Reserve" id='inp' className='button2' onClick={scrollToBook} />
+                                <button type="submit" id='inp' className='button2' onClick={scrollToBook} >Reserve</button>
                             </form>
                         </div>
                     </div>

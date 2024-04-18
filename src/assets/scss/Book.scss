@@ -33,9 +33,6 @@ $primaryColor: #009900;
             display: flex;
             justify-content: center;
             align-items: end;
-            input{
-                padding: 15px 30px;
-            }
         }
     }
     .reservation-completed{
@@ -137,9 +134,6 @@ $primaryColor: #009900;
                                 transition: all ease-in-out 0.3s;
                             }
                         }
-                    }
-                    #inp{
-                        padding: 15px 30px;
                     }
                 }
             }

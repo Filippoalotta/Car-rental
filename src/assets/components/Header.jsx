@@ -25,7 +25,9 @@ function Header(){
     return(
         <>
             <header className={hambOpen ? 'open-hamb' : ''}>
-                <img src={logo} alt="logo" className='logo' />
+                <Link to={'/'}>
+                    <img src={logo} alt="logo" className='logo' />
+                </Link>
                 <nav className='nav-menu'>
                     <ul className='nav-menu-ul'>
                         <li>

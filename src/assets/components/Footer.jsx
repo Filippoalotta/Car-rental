@@ -7,12 +7,18 @@ function Footer(){
 
     const arrow = '>';
 
+    const scrollToTop = ()=> {
+        window.scrollTo({
+            top: 0
+        })
+    }
+
     return(
         <>
             <footer>
                 <div className="footer-content">
                     <div className="contacts-logo-container">
-                        <a href="#home"><img src={LogoFooter} alt="logo car rental" /></a>
+                        <img src={LogoFooter} alt="logo car rental" onClick={scrollToTop} />
                         <div className="contact-content">
                             <img src={phoneIcon} alt="phone icon" />
                             <span>+00 1234 567 89</span>

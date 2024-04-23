@@ -11,7 +11,7 @@ function Banner() {
 
     return(
         <>
-        <div className="banner-container">
+        <div id='home' className="banner-container">
             <div className="banner-content">
                 <h1><span className='green-span'>Rent</span> your freedom on four wheels!</h1>
                 <p>With our car rental service, turn every journey into an unforgettable adventure. We offer a wide selection of high-quality vehicles to suit every need and budget.</p>

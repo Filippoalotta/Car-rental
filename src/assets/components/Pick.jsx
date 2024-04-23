@@ -72,7 +72,7 @@ function Pick(){
                             />
                         ))
                     ) : (
-                        <p>Loading...</p>
+                        <p>The cars are loading...</p>
                     )}
                 </Slider>
             </div>

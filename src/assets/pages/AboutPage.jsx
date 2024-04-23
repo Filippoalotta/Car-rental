@@ -12,7 +12,7 @@ function AboutPage(){
             <Header></Header>
             <div className='about-page'>
                 <div className="page-bg">
-                    <h2>Our Team</h2>
+                    <h2>About Us</h2>
                 </div>
                 <div className="our-story">
                     <img src={OurStory} alt="Why choose us image" />

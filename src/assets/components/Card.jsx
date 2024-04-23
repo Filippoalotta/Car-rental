@@ -1,6 +1,14 @@
 import '../scss/Card.scss'
+import { Link } from 'react-router-dom';
 
 function Card({id, brand, model, year, installments, image}){
+
+    const scrollToTop = ()=>{
+        window.scrollTo({
+            top: 0
+        })
+    }
+
     return(
         <>
             <div className="card" key={id}>
@@ -9,7 +17,9 @@ function Card({id, brand, model, year, installments, image}){
                 <span className='small-text'>{year}</span>
                 <div className='card-content'>
                     <h4>${installments}<span className='small-text'> / month</span></h4>
-                    <a href="#home"><button className='card-button'>Rent Now</button></a>
+                    <button className='card-button' onClick={scrollToTop}>
+                        <Link to={'/'}>Rent Now</Link>
+                    </button>
                 </div>
             </div>
         </>

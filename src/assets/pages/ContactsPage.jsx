@@ -7,9 +7,11 @@ function ContactsPage(){
     return(
         <>
             <Header></Header>
-            <div className='contacts-page'>
-                <h1>Contacts Page</h1>
-            </div>
+            <section className="contacts-page">
+                <div className="page-bg">
+                    <h2>Contacts</h2>
+                </div>
+            </section>
             <Footer></Footer>
         </>
     )

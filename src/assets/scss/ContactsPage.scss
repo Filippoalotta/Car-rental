@@ -1,0 +1,16 @@
+.contacts-page{
+    .page-bg{
+        background-image: url('../images/bg-pages.jpg');
+        background-position: center;
+        background-size: cover;
+        margin-top: 50px;
+        height: 300px;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-size: 30px;
+        }
+    }
+}

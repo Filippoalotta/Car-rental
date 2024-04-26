@@ -23,7 +23,7 @@ function VehiclesPage(){
             <Header></Header>
             <section className="vehicles-page">
                 <div className="page-bg">
-                    <h2>Our Vehicles</h2>
+                    <h1>Our Vehicles</h1>
                 </div>
                 <div className='vehicles-container'>
                 {data ? (

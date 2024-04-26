@@ -1,6 +1,8 @@
 import '../scss/Testimonials.scss'
 import Stars from '../images/stars-icon.png'
 import Testimonial from '../images/testimonial-img.jpg'
+import test3 from '../images/employee3.jpg'
+import test4 from '../images/employee4.jpg'
 import Comma from '../images/comma-icon.png'
 
 function Testimonials(){
@@ -18,10 +20,10 @@ function Testimonials(){
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum, eligendi placeat dolor aut laboriosam sequi pariatur doloremque harum nostrum?</p>
                         <div className="testimonials-content">
-                            <img src={Testimonial} alt="Testimonial image" className='testimonials-img'/>
+                            <img src={test3} alt="Testimonial image" className='testimonials-img'/>
                             <div>
-                                <h4>Alessio G.</h4>
-                                <span>Palermo</span>
+                                <h4>David G.</h4>
+                                <span>Brisbane</span>
                             </div>
                         </div>
                     </div>
@@ -33,10 +35,10 @@ function Testimonials(){
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eum, eligendi placeat dolor aut laboriosam sequi pariatur doloremque harum nostrum?</p>
                         <div className="testimonials-content-container">
                             <div className="testimonials-content">
-                                <img src={Testimonial} alt="Testimonial image" className='testimonials-img'/>
+                                <img src={test4} alt="Testimonial image" className='testimonials-img'/>
                                 <div>
-                                    <h4>Roberto L.</h4>
-                                    <span>Roma</span>
+                                    <h4>John L.</h4>
+                                    <span>Sydney</span>
                                 </div>
                             </div>
                         </div>
@@ -51,8 +53,8 @@ function Testimonials(){
                             <div className="testimonials-content">
                                 <img src={Testimonial} alt="Testimonial image" className='testimonials-img'/>
                                 <div>
-                                    <h4>Anna M.</h4>
-                                    <span>Milano</span>
+                                    <h4>Ariana M.</h4>
+                                    <span>Melbourne</span>
                                 </div>
                             </div>
                         </div>

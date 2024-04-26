@@ -22,28 +22,34 @@ function Header(){
         setMenuOpen(!menuOpen);
     }
 
+    const scrollToTop = ()=> {
+        window.scrollTo({
+            top: 0
+        })
+    }
+
     return(
         <>
             <header className={hambOpen ? 'open-hamb' : ''}>
-                <Link to={'/'}>
+                <Link to={'/'} onClick={scrollToTop}>
                     <img src={logo} alt="logo" className='logo' />
                 </Link>
                 <nav className='nav-menu'>
                     <ul className='nav-menu-ul'>
                         <li>
-                            <Link to={'/'}>Home</Link>
+                            <Link to={'/'} onClick={scrollToTop}>Home</Link>
                         </li>
                         <li>
-                            <Link to={'/about'}>About</Link>
+                            <Link to={'/about'} onClick={scrollToTop}>About</Link>
                         </li>
                         <li>
-                            <Link to={'/vehicles'}>Vehicles</Link>
+                            <Link to={'/vehicles'} onClick={scrollToTop}>Vehicles</Link>
                         </li>
                         <li>
-                            <Link to={'/team'}>Team</Link>
+                            <Link to={'/team'} onClick={scrollToTop}>Team</Link>
                         </li>
                         <li>
-                            <Link to={'/contacts'}>Contacts</Link>
+                            <Link to={'/contacts'} onClick={scrollToTop}>Contacts</Link>
                         </li>
                     </ul>
                 </nav>
@@ -60,19 +66,19 @@ function Header(){
                 <nav className={`${'nav-mb'} ${menuOpen ? 'open-nav' : ''}`}>
                     <ul>
                     <li>
-                            <Link to={'/'}>Home</Link>
+                            <Link to={'/'} onClick={scrollToTop}>Home</Link>
                         </li>
                         <li>
-                            <Link to={'/about'}>About</Link>
+                            <Link to={'/about'} onClick={scrollToTop}>About</Link>
                         </li>
                         <li>
-                            <Link to={'/vehicles'}>Vehicles</Link>
+                            <Link to={'/vehicles'} onClick={scrollToTop}>Vehicles</Link>
                         </li>
                         <li>
-                            <Link to={'/team'}>Team</Link>
+                            <Link to={'/team'} onClick={scrollToTop}>Team</Link>
                         </li>
                         <li>
-                            <Link to={'/contacts'}>Contacts</Link>
+                            <Link to={'/contacts'} onClick={scrollToTop}>Contacts</Link>
                         </li>
                     </ul>
                 </nav>

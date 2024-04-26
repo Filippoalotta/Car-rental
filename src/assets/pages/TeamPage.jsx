@@ -15,7 +15,7 @@ function TeamPage(){
             <Header></Header>
             <section className='team-page'>
                 <div className="page-bg">
-                    <h2>Our Team</h2>
+                    <h1>Our Team</h1>
                 </div>
                 <div className="team-container">
                     <div className="team-card">

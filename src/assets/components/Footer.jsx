@@ -54,7 +54,8 @@ function Footer(){
                     </ul>
                 </div>
                 <div className='copyright'>
-                    <span>© 2024 Car Rental - Web Development by Filippo Alotta</span>
+                    <span>Copyright ©2024 Car Rental. All Rights Reserved.</span>
+                    <span>Web Development by Filippo Alotta</span>
                 </div>
             </footer>
         </>

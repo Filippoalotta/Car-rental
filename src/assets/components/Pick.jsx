@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Card from './Card';
 import '../scss/Pick.scss'
 //import React from 'react';
+import axios from 'axios'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -10,17 +11,13 @@ function Pick(){
 
     const [data, setData] = useState(null);
 
-    useEffect(()=> {
-        fetch('/cars.json')
-        .then((response)=> response.json())
-        .then(data => {
-            setData(data);
-            console.log(data);
-        })
-        .catch((error) => {
-            console.error('Errore durante il caricamento dei dati:', error);
-        });
-    }, []);
+    axios.get('/cars.json')
+    .then(response => {
+        setData(response.data);
+        console.log(response.data);
+    }).catch(error => {
+        console.log(`Error: ${error}`)
+    })
 
     const settings = {
         dots: true,

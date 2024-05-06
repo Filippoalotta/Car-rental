@@ -1,5 +1,6 @@
 import '../scss/VehiclesPage.scss'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import axios from 'axios';
 import Header from '../components/Header';
 import Card from '../components/Card';
 import EasyFastServices from '../components/EasyFastServices';
@@ -9,14 +10,13 @@ function VehiclesPage(){
 
     const [data, setData] = useState(null)
 
-    useEffect(()=> {
-        fetch('/cars.json')
-        .then((response)=> response.json())
-        .then(data => {
-            setData(data);
-            console.log(data);
-        })
-    }, [])
+    axios.get('/cars.json')
+    .then(response => {
+        setData(response.data);
+        console.log(response.data);
+    }).catch(error => {
+        console.log(`Error: ${error}`);
+    })
 
     return(
         <>

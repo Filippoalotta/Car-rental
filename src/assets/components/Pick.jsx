@@ -14,7 +14,6 @@ function Pick(){
     axios.get('/cars.json')
     .then(response => {
         setData(response.data);
-        console.log(response.data);
     }).catch(error => {
         console.log(`Error: ${error}`)
     })

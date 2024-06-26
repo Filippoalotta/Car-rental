@@ -1,5 +1,5 @@
 import '../scss/VehiclesPage.scss'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Header from '../components/Header';
 import Card from '../components/Card';
@@ -8,15 +8,17 @@ import Footer from '../components/Footer';
 
 function VehiclesPage(){
 
-    const [data, setData] = useState(null)
+    const [data, setData] = useState(null);
 
-    axios.get('/cars.json')
-    .then(response => {
-        setData(response.data);
-        console.log(response.data);
-    }).catch(error => {
-        console.log(`Error: ${error}`);
-    })
+    useEffect(() => {
+        axios.get('/cars.json')
+        .then(response => {
+            setData(response.data);
+            console.log(response.data);
+        }).catch(error => {
+            console.log(`Error: ${error}`);
+        });
+    }, []);
 
     return(
         <>

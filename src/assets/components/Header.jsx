@@ -55,7 +55,7 @@ function Header(){
                 </nav>
                 <div className="buttons-container">
                     <a href="#">Sign In</a>
-                    <button className='button2'>Register</button>
+                    <button className='button2'>Sign Up</button>
                 </div>
                 <nav className="nav-hamb" onClick={handleClick}>
                     <span></span>

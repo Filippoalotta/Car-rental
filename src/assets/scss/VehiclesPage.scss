@@ -15,10 +15,29 @@
         }
     }
     .vehicles-container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .vehicles-page{
+        .vehicles-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .vehicles-page{
+        .vehicles-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 0;
+        }
     }
 }

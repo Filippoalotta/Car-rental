@@ -6,7 +6,7 @@ footer .footer-content {
   background-color: #009900;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 }
 footer .footer-content .contacts-logo-container {
   display: flex;
@@ -15,6 +15,7 @@ footer .footer-content .contacts-logo-container {
 }
 footer .footer-content .contacts-logo-container img {
   width: 200px;
+  cursor: pointer;
 }
 footer .footer-content .contacts-logo-container .contact-content {
   font-weight: 400;
@@ -39,6 +40,7 @@ footer .footer-content .menu-footer-container {
 footer .footer-content .menu-footer-container .li-title {
   font-size: 24px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 footer .footer-content .menu-footer-container a {
   color: #fff;
@@ -77,10 +79,21 @@ footer .copyright {
   border-top: 1px solid #fff;
   padding-top: 10px;
 }
+footer .copyright span {
+  display: block;
+}
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 601px) and (max-width: 1000px) {
   .footer-content {
     flex-wrap: wrap;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
 }/*# sourceMappingURL=Footer.css.map */

@@ -39,13 +39,17 @@
   right: 15%;
   background-color: #009900;
   color: #fff;
-  padding: 10px 15px;
+  padding: 12px 17px;
+  font-size: 16px;
   border: none;
   cursor: pointer;
 }
 .card .card-content .card-button:hover {
   background-color: #008600;
   transition: all ease-in-out 0.3s;
+}
+.card .card-content .card-button a {
+  color: #fff;
 }
 
 @media screen and (max-width: 400px) {

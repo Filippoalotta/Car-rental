@@ -20,6 +20,7 @@ function VehiclesPage(){
         });
     }, []);
 
+
     return(
         <>
             <Header></Header>
@@ -32,7 +33,6 @@ function VehiclesPage(){
                         data.cars.map(car => (
                             <Card
                                 key={car.id}
-                                id={car.id}
                                 brand={car.brand}
                                 model={car.model}
                                 year={car.year}

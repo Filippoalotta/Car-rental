@@ -1,1 +1,101 @@
-/*# sourceMappingURL=ContactsPage.css.map */
+.contacts-page {
+  color: #000;
+}
+.contacts-page .page-bg {
+  background-image: url("../images/bg-pages.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+  height: 300px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacts-page .page-bg h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.contacts-page .contacts-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.contacts-page .contacts-section .contacts-info-container h2 {
+  text-transform: uppercase;
+}
+.contacts-page .contacts-section .contacts-info-container .contacts-info h3 {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.contacts-page .contacts-section .contacts-info-container .contacts-info span {
+  display: block;
+  margin: 5px 0;
+  color: #009900;
+}
+.contacts-page .contacts-section .form-container h2 {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.contacts-page .contacts-section .form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.contacts-page .contacts-section .form-container form input {
+  width: 500px;
+  padding: 15px 10px;
+  font-size: 16px;
+  color: gray;
+  background-color: #fff;
+  border: 1px solid #009900;
+  margin-bottom: 8px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contacts-page .contacts-section .form-container form input:focus {
+  border: 1px solid rgb(0, 255, 0);
+  transition: all ease-in-out 0.3s;
+}
+.contacts-page .contacts-section .form-container form textarea {
+  width: 500px;
+  padding: 15px 10px;
+  height: 120px;
+  font-size: 16px;
+  color: gray;
+  background-color: #fff;
+  border: 1px solid #009900;
+  margin-bottom: 8px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contacts-page .contacts-section .form-container form textarea:focus {
+  border: 1px solid rgb(0, 255, 0);
+  transition: all ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 792px) {
+  .contacts-page .contacts-section .contacts-info-container {
+    text-align: center;
+    width: 80vw;
+  }
+  .contacts-page .contacts-section .contacts-info-container .contacts-info {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contacts-page .contacts-section .contacts-info-container .contacts-info {
+    flex-direction: column;
+  }
+  .contacts-page .contacts-section .contacts-info-container .contacts-info .info {
+    margin-bottom: 15px;
+  }
+  .contacts-page .contacts-section .form-container form input {
+    width: 90vw;
+  }
+  .contacts-page .contacts-section .form-container form textarea {
+    width: 90vw;
+  }
+}/*# sourceMappingURL=ContactsPage.css.map */

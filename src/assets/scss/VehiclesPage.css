@@ -1,1 +1,36 @@
-/*# sourceMappingURL=VehiclesPage.css.map */
+.vehicles-page .page-bg {
+  background-image: url("../images/bg-pages.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+  height: 300px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vehicles-page .page-bg h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.vehicles-page .vehicles-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+  .vehicles-page .vehicles-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .vehicles-page .vehicles-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+}/*# sourceMappingURL=VehiclesPage.css.map */

@@ -1,7 +1,7 @@
 .book-section .book-form {
   background-color: #f9f9f9;
   height: auto;
-  padding: 30px 50px;
+  padding: 20px 50px;
   grid-gap: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -11,6 +11,7 @@
   display: block;
   text-align: left;
   color: #222222;
+  font-size: 16px;
 }
 .book-section .book-form .input-container select {
   padding: 5px;
@@ -20,6 +21,7 @@
   background-color: #fff;
   color: gray;
   outline: none;
+  font-size: 16px;
 }
 .book-section .book-form .input-container select:focus {
   border: 1px solid rgb(0, 255, 0);
@@ -126,6 +128,7 @@
   border: 1px solid #009900;
   color: #222222;
   outline: none;
+  font-size: 16px;
 }
 .book-section .modal-window .car-info-container .form-modal-container form .input-modal-container input:focus {
   border: 1px solid rgb(0, 255, 0);
@@ -142,10 +145,10 @@
     padding: 30px;
   }
   .book-section .modal-window {
-    width: 70vw;
+    width: 80vw;
   }
   .book-section .modal-window .head-comp {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
   }
   .book-section .modal-window .head-comp h2 {
